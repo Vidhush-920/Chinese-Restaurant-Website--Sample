@@ -1,0 +1,109 @@
+
+.Heading{
+  color: #800517;
+  font-weight: bold;
+  font-size: 30;
+  font-style: italic;
+  font-family: oblique; 
+    
+}
+
+.Heading span {
+  font-family: cursive;
+  font-weight: normal;
+  font-size: 15;
+  
+}
+
+.Intro p{
+  background-color: beige;
+  letter-spacing: 5px;
+  font-size: 15;
+  padding: 30px;
+}
+
+.menu-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;  
+}
+
+.menu-box  > .container {
+  display: flex;
+  flex: 1 0 20rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.contact-box{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5rem;
+  align-items: flex-start;
+   
+}
+
+.contact-box > .container {
+  display: flex;
+  flex-flow: column wrap;
+  height: 20rem;
+  align-content: center;
+  justify-content: space-around;
+  margin: 10px;
+  
+}
+
+.contact-box > .container span{
+  font-weight: bold;
+}
+
+.contact-box > .container > .Heading{
+  font-size: 20px;
+  margin-bottom: 30px;
+  align-self: center;
+}
+
+.contact-box > .container > .part{
+  display: flex;
+  flex: 1 0 10rem;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px;
+  padding-bottom: 5px;    
+}
+
+.form-box > .container {
+  position: relative;
+  background-color: beige;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  border-left: 2px solid #000;
+}
+
+.form-box > .container > #label{
+  position: absolute;
+  top: -10px;
+  left: 35px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: beige;
+}
+
+.form-box > .container > table {
+  padding-bottom: 15px;
+}
+
+.form-box > .container table td:nth-child(1){
+  padding-right: 90px;
+}
+
+
+

@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Vacancies</title>
+<style>
+html {
+  padding: 10px;
+}
+</style>
+<link rel="stylesheet" href="style.css">
+</head> 
+<body>
+<div class="Heading" style="padding-bottom: 20px;">Application For Employment</div>
+<div class="form-box">
+<div class="container">
+<div id="label">Personal Details</div>
+<table>
+<tr><td>Surname: </td><td><input type="text"></td></tr>
+<tr><td>Forename: </td><td><input type="text"></td></tr>
+<tr><td>Title: </td><td><input type="text"></td></tr>
+<tr><td>Address: </td><td><textarea rows="5" cols="40"></textarea></td></tr>
+<tr><td>Email: </td><td><input type="email"></td></tr>
+<tr><td>NIC: </td><td><input type="text"></td></tr>
+<tr><td>Date of Birth: </td><td><input type="text" placeholder="mm/dd/yyyy" onfocus="(this.type='date')"></td></tr>
+<tr><td>Days Available: </td><td>
+<input type="checkbox" value="Monday">Monday 
+<input type="checkbox" value="Tuesday">Tuesday 
+<input type="checkbox" value="Wednesday">Wednesday 
+<input type="checkbox" value="Thursday">Thursday 
+<input type="checkbox" value="Friday">Friday 
+<input type="checkbox" value="Saturday">Saturday 
+<input type="checkbox" value="Sunday">Sunday 
+</td></tr>
+<tr><td>Nationality: </td><td>
+<select name="nationality" id="nationality">
+    <option value="sinhalese">Sinhalese</option>
+    <option value="srilankan_tamil">SriLankan Tamil</option>
+    <option value="srilankan_moor">SriLankan Moor</option>
+    <option value="indian_tamil">Indian Tamil</option>
+	<option value="others">Others</option>
+  </select>
+</td></tr>
+</table>
+</div>
+<div class="container">
+<div id="label">Education</div>
+<table>
+<tr><td>School/College: </td><td><input type="text"></td></tr>
+<tr><td>Qualification: </td><td><input type="text"></td></tr>
+<tr><td>Time Period: </td><td><input type="text"></td></tr>
+</table>
+</div>
+<div class="container" >
+<div id="label">Declaration</div>
+<p> I confirm you that the above information is complete and correct. False or misleading information will give the employer there right <br>
+to reject my application or to withdraw any employment contract offered or employed, dismiss without notice.<br></p>
+Name:<input type="text"> Date:<input type="text" placeholder="mm/dd/yyyy" onfocus="(this.type='date')"> <br><br>
+</div>
+<div class="container" style="border-bottom: 2px solid #000; padding-top: 5px;">
+<div id="label">Add-On</div>
+<br>
+<input type="file" value="Choose file">
+<input type="submit" style="left: 30px;">
+</div>
+</div>
+</body>
+</html>
